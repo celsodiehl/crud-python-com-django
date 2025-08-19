@@ -8,3 +8,6 @@ def inicio(request):
 #Função outros
 def outros(request):
     return render(request, 'paginas/outros.html')
+#Função livros
+def livros(request):
+    return render(request, 'livros/index.html')
