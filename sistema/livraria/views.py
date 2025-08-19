@@ -4,7 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 #Função inicio
 def inicio(request):
-    return HttpResponse("<h1>Bem Vindo a Biblioteca</h1>")
+    return render(request, 'paginas/inicio.html')
 #Função outros
 def outros(request):
     return render(request, 'paginas/outros.html')
