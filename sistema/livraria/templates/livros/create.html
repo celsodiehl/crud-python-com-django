@@ -4,6 +4,15 @@
 
 {% block conteudo %}
 
-Formulário para Cadastro de Livros
+<div class="card">
+    <div class="card-header">Cadastrar Livro</div>
+    <div class="card-body">
+        <h4 class="card-title">Dados do Livro</h4>
+        {% include 'livros/form.html' %}
+        
+    </div>
+    <div class="card-footer text-muted">Footer</div>
+</div>
+
 
 {% endblock %}
